@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="author" content="Ennio Gonzalez">
+        <meta name="description" content="Sistema Inmuebles4K">
+        <title>4K | Usuarios</title>
+        
+        <!-- <link rel="stylesheet" type="text/css" href="css/bootstrap.css"> -->
+        <link rel="stylesheet" type="text/css" href="css/menu.css">
+        <link rel="stylesheet" type="text/css" href="css/Inmuebles4k.css">
+    </head>
+    <body class="body-inmuebles">
+        <header>
+            <nav class="navbar navbar-dark bg-dark header-inmuebles" style="background-color:#2C3E50 !important;">
+                <h1>Inmuebles4K</h1>
+            </nav>
+        </header>
+            
+        <main role="main">
+            <div class="row" style ="min-height: 85vh;">
+
+                <div class="Columnas-3" style="background-color: #95a5a6; padding: 10px;">
+                    <div id='menu-inmuebles'>
+                        <ul id="menu">
+                                <li class="oMenu">
+                                    <a href='index.html'>
+                                        <label>Inmuebles</label>
+                                    </a>
+                                </li>
+                                <li class="oMenu">
+                                    <a href='usuarios.html'>
+                                        <label>Usuarios</label>
+                                    </a>
+                                </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="informationPage">
+                        <div class="container">
+                                <h2> Usuarios</h2>   
+                            </div>
+                            
+                            <div class="container">
+                                <div class="formulario-inmuebles">
+                                    <form  id="FormularioActual" method="POST" action = "">
+                            
+                            
+                                        <div class="form-group row">
+                                            <label for="" class="Columnas-3 col-form-label">Username:</label>
+                                            <div class="Columnas-9">
+                                                <input   type="text" class="form-control  " id="" value="">
+                                            </div>
+                                        </div>
+
+                                        <div class="form-group row">
+                                            <label for="" class="Columnas-3 col-form-label">Nombre:</label>
+                                            <div class="Columnas-9">
+                                                <input   type="text" class="form-control  " id="" value="">
+                                            </div>
+                                        </div>
+                                        
+                                        <div class="form-group row">
+                                            <label for="" class="Columnas-3 col-form-label">Apellido:</label>
+                                            <div class="Columnas-9">
+                                                <input   type="text" class="form-control  " id="" value="">
+                                            </div>
+                                        </div>
+
+                                        <div class="form-group row">
+                                            <label for="" class="Columnas-3 col-form-label">Direccion</label>
+                                            <div class="Columnas-9">
+                                                <textarea    class="form-control " rows="3"
+                                                style = "resize:vertical;" id=""></textarea>
+                                            </div>
+                                        </div>
+                            
+
+                                    </form>
+                                    <div style="background-color: #95a5a6; padding: 10px;">
+                            
+                                        <div class="form-group row botoneraFormulario" >
+                                            <button  type="button"  class="btn btn-primary-inmu" id="BuscarRegistro">
+                                                <span class="fa fa-search"></span>
+                                                Buscar
+                                            </button>
+                            
+                                            <button type="button"  class="btn btn-primary-inmu" id="EditarRegistro">
+                                                <span class="fa fa-pencil-square-o"></span>
+                                                Editar
+                                            </button>
+                            
+                                            <button type="button"  class="btn btn-primary-inmu" id="AgregarRegistro">
+                                                <span class="fa fa-plus"></span>
+                                                Agregar
+                                            </button>
+                            
+                                            <button title="Eliminar" type="button" class="btn  btn-danger" id="EliminarRegistro">
+                                                <span class="fa fa-trash"></span>
+                                                Eliminar
+                                            </button>
+                            
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                </div>
+            </div>
+        </main>
+    </body>
+</html>

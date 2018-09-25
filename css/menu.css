@@ -1,0 +1,96 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
+/* Starter CSS for Flyout Menu */
+#menu-inmuebles,
+#menu-inmuebles ul,
+#menu-inmuebles ul li{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+#menu-inmuebles ul {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 10px;
+  padding: 10px 0px;
+  position: relative;
+  z-index: 597;
+  float: left;
+}
+#menu-inmuebles ul li {
+  float: left;
+  min-height: 1px;
+  line-height: 1em;
+  vertical-align: middle;
+}
+
+#menu-inmuebles ul li,#menu-inmuebles ul li span,#menu-inmuebles ul li label {
+  cursor: pointer;
+}
+#menu-inmuebles ul li.hover,
+#menu-inmuebles ul li:hover {
+  position: relative;
+  z-index: 599;
+  cursor: default;
+}
+
+#menu-inmuebles ul li {
+  float: none;
+}
+#menu-inmuebles ul ul li {
+  font-weight: normal;
+}
+
+#menu-inmuebles {
+  font-family: 'Lato', sans-serif;
+  font-size: 18px;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+
+#menu-inmuebles ul a,
+#menu-inmuebles ul a:link,
+#menu-inmuebles ul a:visited {
+  display: block;
+  color: #1e1e1f;
+  text-decoration: none;
+  font-weight: 300;
+}
+ #menu-inmuebles > ul {
+  float: none;
+}
+#menu-inmuebles ul {
+  background: #fff;
+}
+#menu-inmuebles > ul > li {
+  border-left: 3px solid #d7d8da;
+}
+#menu-inmuebles > ul > li > a {
+  padding: 10px 10px;
+} 
+#menu-inmuebles > ul > li:hover {
+  border-left: 3px solid #2C3E50;
+}
+#menu-inmuebles ul li:hover > a {
+  color: #2C3E50;
+}
+.oMenu:hover {
+  background: #f6f6f6;
+} 
+
+.submenu{
+  display: none;
+}
+
+.menu-activo{
+    border-left: 3px solid #3dbd99 !important;
+    background: #f6f6f6;
+}
+.menu-activo > a{
+    color: #3dbd99 !important;
+
+}
+
+.submenu{
+  background: #bdb9b9;
+  border-left: 3px solid #a9aaac;
+}
